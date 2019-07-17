@@ -10,17 +10,12 @@ namespace SweepStakes
     {
         public void EnqueueOnQueue()
         {
-            Queue<int> queue = new Queue<int>();
+            SweepStakes<int> queue = new SweepStakes<int>();
 
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-            queue.Enqueue(3);
 
-            Console.WriteLine("Elements in queue: ");
-            foreach (int number in queue)
-            {
-                Console.WriteLine(number);
-            }
+            
         }
     }
+
+    
 }

@@ -47,6 +47,8 @@
     <Compile Include="MarketingFirm.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SweepStakes.cs" />
+    <Compile Include="SweepStakes1.cs" />
     <Compile Include="SweepstakesManager interface.cs" />
     <Compile Include="SweepstakesQueueManager.cs" />
     <Compile Include="SweepstakesStackManager.cs" />

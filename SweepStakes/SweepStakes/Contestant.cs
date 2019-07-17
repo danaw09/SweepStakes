@@ -22,5 +22,7 @@ namespace SweepStakes
             email = _email;
             registration = _registration;
         }
+
+
     }
 }

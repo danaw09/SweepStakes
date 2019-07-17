@@ -11,6 +11,7 @@ namespace SweepStakes
         public string firstName;
         public string Contestant;
 
+        Dictionary<string, string> animals = new Dictionary<string, string>();
         public SweepStakes(string firstname)
         {
 

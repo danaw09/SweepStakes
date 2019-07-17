@@ -8,5 +8,11 @@ namespace SweepStakes
 {
     class SweepstakesStackManager: SweepstakesManager_interface
     {
+        private object sweepstakes;
+
+        public void PushOnToStack()
+        {
+            SweepStakes.Push(sweepstakes);
+        }
     }
 }

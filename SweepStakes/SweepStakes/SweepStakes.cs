@@ -10,6 +10,26 @@ namespace SweepStakes
     {
         public string firstName;
         public string Contestant;
+
+        public SweepStakes(string firstname)
+        {
+
+        }
+
+        public void RegisterContestant(Contestant contestant)
+        {
+
+        }
+
+        public void pickWinner(string firstname)
+        { 
+
+        }
+
+        public void PrintContestantInfo(Contestant contestant)
+        {
+
+        }
     }
    
 }

@@ -18,7 +18,7 @@ namespace SweepStakes
         {
             Dictionary<int, string> contestant = new Dictionary<int, string>();
             contestant.Add(1, "firstname");
-            contestant.Add(2, "firstname");
+            contestant.Add(2, "lasttname");
         }
 
 

@@ -8,9 +8,14 @@ namespace SweepStakes
 {//dependency injection
     class MarketingFirm
     {
-       public void Register(string emailaddress, string emailmessage)
+      internal static void IRegister(string emailaddress, int registration)
         {
+          
+        }
 
+        internal static void IRegister()
+        {
+            throw new NotImplementedException();
         }
     }
 }

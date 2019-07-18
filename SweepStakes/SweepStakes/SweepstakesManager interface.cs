@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class SweepstakesManager_interface
+    interface ISweepStakesManager
     {
         public void InsertSweepStakes(SweepStakes sweepstakes)
         {
@@ -15,7 +15,7 @@ namespace SweepStakes
 
         public void SweepstakesGetSweepstakes()
         {
-            MarketingFirm.IRegister();
+            
         }
     }
 }

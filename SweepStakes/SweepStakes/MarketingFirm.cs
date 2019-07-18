@@ -8,14 +8,13 @@ namespace SweepStakes
 {//dependency injection
     class MarketingFirm
     {
-      internal static void IRegister(string emailaddress, int registration)
-        {
-          
-        }
 
-        internal static void IRegister()
+        ISweepStakesManager manager;
+
+        public MarketingFirm(ISweepStakesManager manager)
         {
-            throw new NotImplementedException();
+            this.manager = manager;
         }
+      
     }
 }

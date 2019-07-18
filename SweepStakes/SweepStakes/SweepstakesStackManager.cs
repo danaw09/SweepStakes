@@ -10,14 +10,13 @@ namespace SweepStakes
     {
         private object sweepstakes;
         public Stack<SweepStakes> sweepstakesStack;
+
         public SweepstakesStackManager()
         {
             sweepstakesStack = new Stack<SweepStakes>();
         }
 
         
-
-       
         public SweepStakes GetNextSweepstakesWinner()
         {
             return sweepstakesStack.Pop();

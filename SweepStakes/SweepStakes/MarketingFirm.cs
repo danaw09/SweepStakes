@@ -10,10 +10,16 @@ namespace SweepStakes
     {
 
         ISweepStakesManager manager;
+        
 
         public MarketingFirm(ISweepStakesManager manager)
         {
             this.manager = manager;
+        }
+
+        public MarketingFirm()
+        {
+            
         }
 
            
